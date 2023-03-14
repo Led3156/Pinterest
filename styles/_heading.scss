@@ -17,10 +17,12 @@
       top: 0;
       left: 0;
       transform: translate(-50%);
-    }
-    .text {
+
+      .text {
         white-space: nowrap;
-        color: $red
+        color: $red;
+        transition-duration: 1s;
+      }
     }
   }
 }
